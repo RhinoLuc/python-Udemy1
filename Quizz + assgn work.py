@@ -426,3 +426,36 @@
 
 # assi21
 
+
+# values = [0, 0.0, "0.0"]
+# print(set(values))
+
+# pages = { 10, 20, 30 }
+# element = pages.remove(30)
+# print(element)
+
+# pages = { 10, 20, 30 }
+# pages.add([30, 40, 50])
+
+
+# print(set("zyx"))
+
+gatorade_flavors = { "blue", "red", "orange" }
+powerade_flavors = { "red", "green", "yellow" }
+ 
+print(gatorade_flavors.intersection(powerade_flavors))
+
+gatorade_flavors = { "blue", "red", "orange" }
+powerade_flavors = { "red", "green", "yellow" }
+ 
+print(gatorade_flavors.difference(powerade_flavors))
+
+juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
+tea_flavors = { "Peach", "Grape", "apple" }
+ 
+print(juice_flavors & tea_flavors)
+
+juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
+tea_flavors = { "Peach", "Grape", "apple" }
+print(juice_flavors - tea_flavors)
+
