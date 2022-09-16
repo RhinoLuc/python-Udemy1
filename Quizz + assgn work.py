@@ -440,22 +440,30 @@
 
 # print(set("zyx"))
 
-gatorade_flavors = { "blue", "red", "orange" }
-powerade_flavors = { "red", "green", "yellow" }
+# gatorade_flavors = { "blue", "red", "orange" }
+# powerade_flavors = { "red", "green", "yellow" }
  
-print(gatorade_flavors.intersection(powerade_flavors))
+# print(gatorade_flavors.intersection(powerade_flavors))
 
-gatorade_flavors = { "blue", "red", "orange" }
-powerade_flavors = { "red", "green", "yellow" }
+# gatorade_flavors = { "blue", "red", "orange" }
+# powerade_flavors = { "red", "green", "yellow" }
  
-print(gatorade_flavors.difference(powerade_flavors))
+# print(gatorade_flavors.difference(powerade_flavors))
 
-juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
-tea_flavors = { "Peach", "Grape", "apple" }
+# juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
+# tea_flavors = { "Peach", "Grape", "apple" }
  
-print(juice_flavors & tea_flavors)
+# print(juice_flavors & tea_flavors)
 
-juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
-tea_flavors = { "Peach", "Grape", "apple" }
-print(juice_flavors - tea_flavors)
+# juice_flavors = { "Lemon", "Peach", "Raspberry", "Apple" }
+# tea_flavors = { "Peach", "Grape", "apple" }
+# print(juice_flavors - tea_flavors)
+
+# -----------------------------------------------------------------------
+
+# ass 23
+
+# import math
+
+# print(math.dir)
 
